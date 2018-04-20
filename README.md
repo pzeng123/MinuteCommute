@@ -1,11 +1,31 @@
-# Insight2018DO
-Devops project in 2018 Insight
+# Insight 2018 DevOps project
 
 
 
+## Summary:
+Help people find appartment/room rent information which has less commute time
 
-Project Idea (1-sentence)
-What is the purpose, and most common use cases?
-Which technologies are well-suited to solve those challenges? (list all relevant)
-Proposed architecture
+
+## Purpose and most common use cases
+when people search appartment rent informaton (on craigslist for example), they are usually only can limit the "miles from zip".
+While distance is important, it is more critical that we need to consider the commute time (car, bus, bike, walk). Moreover, we can add more similar features in different versions, such as showing the time not only to the working location, but also other places (hospital, schools, grocery stores)
+
+![image](https://github.com/pzeng123/Insight2018DO/blob/master/img/1.png "image 1")
+
+
+
+## Technologies
+
+
+data pipeline:
+
+Data: S3
+Spark: preprocessing
+Database: batch processing Cassandra/MySQL
+Flask: web application UI
+
+
+
+## Devops flow
+
 
