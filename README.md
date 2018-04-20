@@ -21,7 +21,7 @@ Combine these two:
 
 * Data: S3
 * Preprocessing/data streaming: Spark
-* Database: batch processing Cassandra/MySQL
+* Database: MySQL
 * Web application UI: Flask
 
 
