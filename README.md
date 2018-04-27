@@ -58,14 +58,6 @@ transit: 1 hour 42 mins
 
 
 
-What are the primary engineering challenges? -> Why would a Data Engineering Hiring Manager care about this project
-Proposed architecture
-What are the (quantitative) specifications/constraints for this project?
-
-
-
-
-
 
 
 ## Devops flow
