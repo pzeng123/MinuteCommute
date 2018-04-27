@@ -25,8 +25,34 @@ Combine these two:
 * Web application UI: Flask
 
 
+Scrapy apartment rental data from craigslist ->
+from 5 areas in SF-Bay area(AREAS = ["eby", "sfc", "sby", "nby", "pen"]), each 20 newest results.
 
+```
+(venv) peng@ubuntu:~/myproject/apartment-finder$ python scraper.py
+Fri Apr 27 13:04:27 2018: Got 96 results
+```
 
+-> Data saved in database (MYSQL/SQLITE)
+-> google map API get the commute time
+
+```
+(venv) peng@ubuntu:~/myproject/apartment-finder$ python googlemap1.py
+****************************
+37.4673,-122.1388
+driving: 10 mins
+walking: 1 hour 13 mins
+bicycling: 22 mins
+transit: 46 mins
+****************************
+37.7024,-122.124
+driving: 37 mins
+walking: 8 hours 0 mins
+bicycling: 2 hours 19 mins
+transit: 1 hour 42 mins
+****************************
+```
+-> Display on Web UI (Flask)
 
 
 
