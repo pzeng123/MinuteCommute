@@ -34,6 +34,12 @@ Fri Apr 27 13:04:27 2018: Got 96 results
 ```
 
 #### -> Data saved in database (MYSQL/SQLITE)
+```
+from sqlalchemy import create_engine
+...
+engine = create_engine('sqlite:///listings.db', echo=False)
+```
+
 #### -> google map API get the commute time
 
 ```
