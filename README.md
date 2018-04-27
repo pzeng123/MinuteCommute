@@ -20,9 +20,25 @@ Combine these two:
 
 
 * Data: S3
-* Preprocessing/data streaming: Spark
+* （Preprocessing/data streaming: Kafka-Spark）
 * Database: MySQL
 * Web application UI: Flask
+
+
+
+
+
+
+
+
+
+What are the primary engineering challenges? -> Why would a Data Engineering Hiring Manager care about this project
+Proposed architecture
+What are the (quantitative) specifications/constraints for this project?
+
+
+
+
 
 
 
