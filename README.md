@@ -20,7 +20,7 @@ Combine these two:
 
 
 * Data: S3
-* （Preprocessing/data streaming: Kafka-Spark）(not enough large data set)
+* ~~（Preprocessing/data streaming: Kafka-Spark）~~(not enough large data set)
 * Database: MySQL
 * Web application UI: Flask
 
