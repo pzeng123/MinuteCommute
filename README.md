@@ -20,12 +20,12 @@ Combine these two:
 
 
 * Data: S3
-* （Preprocessing/data streaming: Kafka-Spark）
+* （Preprocessing/data streaming: Kafka-Spark）(not enough large data set)
 * Database: MySQL
 * Web application UI: Flask
 
 
-### Scrapy apartment rental data from craigslist ->
+#### Scrapy apartment rental data from craigslist ->
 from 5 areas in SF-Bay area(AREAS = ["eby", "sfc", "sby", "nby", "pen"]), each 20 newest results.
 
 ```
@@ -33,8 +33,8 @@ from 5 areas in SF-Bay area(AREAS = ["eby", "sfc", "sby", "nby", "pen"]), each 2
 Fri Apr 27 13:04:27 2018: Got 96 results
 ```
 
-### -> Data saved in database (MYSQL/SQLITE)
-### -> google map API get the commute time
+#### -> Data saved in database (MYSQL/SQLITE)
+#### -> google map API get the commute time
 
 ```
 (venv) peng@ubuntu:~/myproject/apartment-finder$ python googlemap1.py
@@ -52,11 +52,11 @@ bicycling: 2 hours 19 mins
 transit: 1 hour 42 mins
 ****************************
 ```
-### -> Display on Web UI (Flask)
+#### -> Display on Web UI (Flask)
 
 
-### -> Docker
-### -> Kubernetes
+#### -> Container technology for Devops
+ Docker -> Kubernetes
 
 
 
