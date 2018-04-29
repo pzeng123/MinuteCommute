@@ -40,7 +40,7 @@ from sqlalchemy import create_engine
 engine = create_engine('sqlite:///listings.db', echo=False)
 ```
 
-#### -> google map API get the commute time
+#### -> Google map API get the commute time (2500/day limit)
 
 ```
 (venv) peng@ubuntu:~/myproject/apartment-finder$ python googlemap1.py
