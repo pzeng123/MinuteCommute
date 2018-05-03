@@ -1,6 +1,6 @@
 ## Install steps
 
-### ssh to aws instence
+### ssh to aws instance
 
 ```
 sudo apt-get update
@@ -9,7 +9,7 @@ sudo apt-get -y install mysql-server postfix supervisor git
 sudo pip3 install virtualenv
 ```
 
-make a parent directory
+### make a parent directory
 ```
 mkdir ~/myproject
 cd ~/myproject
@@ -19,7 +19,7 @@ virtualenv myprojectenv
 source myprojectenv/bin/activate
 ```
 
-in the (env):
+### in the (env):
 ```
 pip install gunicorn flask
 pip install pymysql
@@ -38,7 +38,7 @@ gunicorn --bind 0.0.0.0:5000 wsgi:app
 
 
 
-supervisor
+### supervisor
 ```
 
 sudo nano /etc/supervisor/conf.d/gunicorn.conf
@@ -59,7 +59,7 @@ sudo supervisorctl status
 
 ```
 
-nginx
+### nginx
 ```
 sudo rm /etc/nginx/sites-enabled/default
 sudo nano /etc/nginx/sites-enabled/myproject
