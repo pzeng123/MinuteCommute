@@ -90,7 +90,8 @@ server {
 }
 ```
 
-## If index.html changed, restart supervisor:
-
+### If index.html changed, restart supervisor:
+```
 sudo supervisorctl reload
 sudo supervisorctl status
+```
