@@ -88,7 +88,7 @@ server {
     }
 
 }
-
+```
 
 ## If index.html changed, restart supervisor:
 
