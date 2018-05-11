@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %} Home {% endblock %}
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet"
+          href="">
+{% endblock %}
+{% block content %}
+
+	<div class="container">
+		<h2>Minute Commute: Don't waste time commuting</h2>
+	</div>
+	
+	<div class="container">
+	{{ wtf.quick_form(form) }}
+    </div>
+
+{% endblock %}

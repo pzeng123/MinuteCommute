@@ -1,0 +1,31 @@
+{% extends 'bootstrap/base.html' %}
+
+<!-- Navigation Bar -->
+{% block navbar %}
+	<nav class="navbar navbar-default" role="navigation">
+
+		<div class="container">
+            <div class="nav navbar-header navbar-left">
+                <a href="/" class="navbar-left"><img src="/static/img/logo.png" alt="Rocket" style="width:36px;height:36px;"></a>
+            </div>
+            
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">   Minute Commute</a>
+			</div>
+            
+            <div id="navbar" class="nav navbar-nav navbar-right" style="margin-right: 10px">
+                <a class="navbar-brand" href="https://github.com/pzeng123/MinuteCommute">Github</a>
+            </div>
+            <div id="navbar" class="nav navbar-nav navbar-right" style="margin-right: 10px">
+                <a class="navbar-brand" href="https://www.google.com">Google Slides</a>
+            </div>
+		</div>
+	</nav>
+
+{% endblock %}
+
+<!-- Content Block -->
+{% block page_title %} {% endblock %}
+
+<!-- Content -->
+{% block content %} {% endblock %}

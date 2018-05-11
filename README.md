@@ -1,9 +1,8 @@
-# Appartment/Housing/Rooms rent for commuters
-## Find the living place has the shortest commute time
+# Minute Commute
+## don't waste time commuting
 
-workfriendly don't waste time commuting
 
-minute commute
+
 
 
 
