@@ -95,3 +95,11 @@ server {
 sudo supervisorctl reload
 sudo supervisorctl status
 ```
+
+### If want to start/stop/restart Nginx:
+
+```
+sudo service nginx start
+sudo service nginx stop
+sudo service nginx restart
+```
