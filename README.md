@@ -1,5 +1,5 @@
 # Minute Commute
-## don't waste time commuting
+## Don't waste time commuting
 
 
 
